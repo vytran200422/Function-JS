@@ -1,5 +1,4 @@
 document.getElementById("btn").onclick = function () {
-  let diemChuan = document.getElementById("diemChuan").value;
   let diemKV = document.getElementById("khuVuc").value;
   let diemDT = document.getElementById("doiTuong").value;
   let mon1 = +document.getElementById("mon1").value;
@@ -64,6 +63,7 @@ function tinhDiem(diemKV, diemDT, diem1, diem2, diem3) {
 }
 
 function display(trungBinh) {
+  let diemChuan = document.getElementById("diemChuan").value;
   if (trungBinh >= diemChuan) {
     document.getElementById("kq").style.color = "green";
     document.getElementById("kq").innerHTML =
