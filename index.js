@@ -1,3 +1,4 @@
+// Bai tap 1
 document.getElementById("btn").onclick = function () {
   let diemKV = document.getElementById("khuVuc").value;
   let diemDT = document.getElementById("doiTuong").value;
