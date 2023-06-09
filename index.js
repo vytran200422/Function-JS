@@ -58,12 +58,12 @@ document.getElementById("btn").onclick = function () {
 
 function tinhDiem(diemKV, diemDT, diem1, diem2, diem3) {
   let diemTB = 0;
-  diemTB = diemKV + diemDT + diem1 + diem2 + diem3;
+  diemTB += diemKV + diemDT + diem1 + diem2 + diem3;
   return diemTB;
 }
 
 function display(trungBinh) {
-  let diemChuan = document.getElementById("diemChuan").value;
+  let diemChuan = +document.getElementById("diemChuan").value;
   if (trungBinh >= diemChuan) {
     document.getElementById("kq").style.color = "green";
     document.getElementById("kq").innerHTML =
