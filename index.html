@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div class="content">
+        <!-- sidebar -->
+        <div class="dashboard">
+            <div class="option">
+                <a href="">
+                    <span>Quản Lý Tuyển Sinh</span>
+                </a>
+            </div>
+            <div class="option">
+                <a href="./average.html">
+                    <span>Nộp Tiền Điện</span>
+                </a>
+            </div>
+            <div class="option">
+                <a href="./currency.html">
+                    <span>Tính Tiền Cáp</span>
+                </a>
+            </div>
+            <div class="option">
+                <a class="d-flex align-items-center" href="./rectangle.html">
+                    <span>Tính Thuế Thu Nhập Cá Nhân</span>
+                </a>
+            </div>
+        </div>
+    
+        <!-- calculation  -->
+        <div class="calculation">
+            <div class="title">
+                <h1>Quản Lý Tuyển Sinh</h1>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dicta libero minima id, obcaecati doloremque
+                voluptatibus hic sapiente mollitia distinctio at maiores vel eius quaerat, qui corrupti a, exercitationem
+                error?</p>
+
+
+            <div class="raw-data">
+                <div>
+                    <input id="diemChuan" placeholder="Điểm chuẩn" type="text" style="width: 100%;">
+                </div>
+
+                <div>
+                    <select name="" id="khuVuc" >
+                        <option value="">Chọn khu vực</option>
+                        <option value="X">X</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select>
+                </div>
+
+                <div>
+                    <select name="" id="doiTuong">
+                        <option value="">Đối tượng</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input placeholder="Nhập điểm môn 1" id="mon1" type="text">
+                </div>
+
+                <div>
+                    <input placeholder="Nhập điểm môn 2"  id="mon2" type="text">
+                </div>
+
+                <div>
+                    <input placeholder="Nhập điểm môn 3"  id="mon3" type="text">
+                </div>
+
+                <button id="btn">Kết quả</button>
+                <p id="kq"></p>
+            </div>
+        </div>
+    </div>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
