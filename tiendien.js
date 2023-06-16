@@ -11,7 +11,7 @@ document.getElementById("tienDien").onclick = function () {
     tongTien += 500 * 50 + 650 * (100 - 50) + 850 * (soKw - 100);
   } else if (soKw <= 350) {
     tongTien +=
-      500 * 50 + 650 * (50 - 50) + 850 * (200 - 100) + 1100 * (soKw - 200);
+      500 * 50 + 650 * (100 - 50) + 850 * (200 - 100) + 1100 * (soKw - 200);
   } else {
     tongTien +=
       500 * 50 +

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Nộp Tiền Điện</title>
+    <title>Tính Tiền Cáp</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,12 +29,12 @@
                     </a>
                 </div>
                 <div class="option">
-                    <a href="#">
+                    <a href="./tiendien.html">
                         <span>Nộp Tiền Điện</span>
                     </a>
                 </div>
                 <div class="option">
-                    <a href="./tiencap.html">
+                    <a href="">
                         <span>Tính Tiền Cáp</span>
                     </a>
                 </div>
@@ -48,7 +48,7 @@
             <!-- calculation  -->
             <div class="calculation">
                 <div class="title">
-                    <h1>Nộp Tiền Điện</h1>
+                    <h1>Tính Tiền Cáp</h1>
                 </div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dicta libero minima id, obcaecati
                     doloremque
@@ -58,16 +58,31 @@
 
 
                 <div class="raw-data">
-                    <div>
-                        <input id="ten" placeholder="Nhập tên" type="text" style="width: 100%;">
+
+                    <div id="content">
+                        <div>
+                            <select name="" id="loai" onchange="disable()">
+                                <option value="">Tính Tiền Cáp</option>
+                                <option value="nhaDan">Nhà dân</option>
+                                <option value="doanhNghiep">Doanh Nghiệp</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <input placeholder="Nhập mã khách hàng" id="code" type="text">
+                        </div>
+                        
+                        <div>
+                            <input placeholder="Số kênh cao cấp" id="numb" type="text">
+                        </div>
+
+                        <div>
+                            <input placeholder="Số kết nối" id="ketNoi" type="text">
+                        </div>
                     </div>
 
-                    <div>
-                        <input placeholder="Nhập số Kw đã dùng" id="KW" type="text">
-                    </div>
-
-                    <button id="tienDien">Kết quả</button>
-                    <p class="mt-3" id="kq"></p>
+                    <button id="btn">Kết quả</button>
+                    <p class="mt-2" id="kq"></p>
                 </div>
             </div>
         </div>
@@ -85,7 +100,7 @@
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
 
-    <script src="./tiendien.js"></script>
+    <script src="./tiencap.js"></script>
 </body>
 
 </html>
